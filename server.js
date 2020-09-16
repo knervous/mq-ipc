@@ -25,8 +25,11 @@ ipc.config.silent = true;
  */
 
 const clients = {};
-const start = () => {
+const start = (mq = {}) => {
   ipc.serveNet(function () {
+    if (mq.log) {
+      mq.log("Server started");
+    }
     function disconnect() {
       ipc.server.broadcast("kill.connection", {
         id: ipc.config.id,
