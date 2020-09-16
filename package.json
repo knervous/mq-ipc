@@ -1,6 +1,6 @@
 {
   "name": "mq-ipc",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IPC server and client for MQ2Node plugin",
   "main": "index.js",
   "scripts": {
@@ -19,6 +19,7 @@
   "bugs": {
     "url": "https://github.com/knervous/mq-ipc/issues"
   },
+  "module": "index.js",
   "homepage": "https://github.com/knervous/mq-ipc#readme",
   "dependencies": {
     "node-ipc": "^9.1.1",
