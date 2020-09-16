@@ -101,6 +101,8 @@ const start = (mq = {}) => {
       });
     });
   });
+
+  ipc.server.start();
 };
 
 module.exports = {
