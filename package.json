@@ -1,8 +1,7 @@
 {
   "name": "mq-ipc",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "IPC server and client for MQ2Node plugin",
-  "main": "index.js",
   "scripts": {
   },
   "repository": {
